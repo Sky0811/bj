@@ -1,71 +1,71 @@
 
-    Laravel¿ò¼ÜÊÚ¿Î±Ê¼Ç
+    Laravelæ¡†æ¶æ€»ç»“ç¬”è®°
 ==============================================================
- ¿Î³Ì´ó¸Ù£º
-    1. composerµÄ°²×°
-    2. laravel¿ò¼ÜµÄ°²×°
-    3. ±¾µØÓòÃû½âÎöÓëapapcheĞéÄâÖ÷»úÅäÖÃ
-    4. »·¾³ÅäÖÃÓëÊı¾İ¿âÁ¬½Ó
-       Ä¿Â¼½á¹¹½éÉÜ
-       Â·ÓÉÊ¹ÓÃ
-       ¿ØÖÆÆ÷Ê¹ÓÃ
-    5. laravelÊı¾İ¿âÇ¨ÒÆ¹¤¾ß
-    6. laravelDebug°²×°Óëµ÷ÊÔÃüÁî
+ è¯¾ç¨‹å¤§çº²ï¼š
+    1. composerçš„å®‰è£…
+    2. laravelæ¡†æ¶çš„å®‰è£…
+    3. æœ¬åœ°åŸŸåè§£æä¸apapcheè™šæ‹Ÿä¸»æœºé…ç½®
+    4. ç¯å¢ƒé…ç½®ä¸æ•°æ®åº“è¿æ¥
+       ç›®å½•ç»“æ„ä»‹ç»
+       è·¯ç”±ä½¿ç”¨
+       æ§åˆ¶å™¨ä½¿ç”¨
+    5. laravelæ•°æ®åº“è¿ç§»å·¥å…·
+    6. laravelDebugå®‰è£…ä¸è°ƒè¯•å‘½ä»¤
     
-Ò»¡¢ composerµÄ°²×°£º
+ä¸€ã€ composerçš„å®‰è£…ï¼š
 --------------------------------------------------------------
-  1.ComposerÊÇÊ²Ã´£¿
-    ÊÇ PHP ÓÃÀ´¹ÜÀíÒÀÀµ£¨dependency£©¹ØÏµµÄ¹¤¾ß¡£
-    Äã¿ÉÒÔÔÚ×Ô¼ºµÄÏîÄ¿ÖĞÉùÃ÷ËùÒÀÀµµÄÍâ²¿¹¤¾ß¿â£¨libraries£©£¬
-    Composer »á°ïÄã°²×°ÕâĞ©ÒÀÀµµÄ¿âÎÄ¼ş¡£
-  2.ÍøÖ·£ºhttps://getcomposer.org
-     ÏÂÔØ£ºhttps://getcomposer.org/download/
+  1.Composeræ˜¯ä»€ä¹ˆï¼Ÿ
+    æ˜¯ PHP ç”¨æ¥ç®¡ç†ä¾èµ–ï¼ˆdependencyï¼‰å…³ç³»çš„å·¥å…·ã€‚
+    ä½ å¯ä»¥åœ¨è‡ªå·±çš„é¡¹ç›®ä¸­å£°æ˜æ‰€ä¾èµ–çš„å¤–éƒ¨å·¥å…·åº“ï¼ˆlibrariesï¼‰ï¼Œ
+    Composer ä¼šå¸®ä½ å®‰è£…è¿™äº›ä¾èµ–çš„åº“æ–‡ä»¶ã€‚
+  2.ç½‘å€ï¼šhttps://getcomposer.org
+     ä¸‹è½½ï¼šhttps://getcomposer.org/download/
      
-     ÖĞ¹úÈ«Á¿¾µÏñ£ºhttp://pkg.phpcomposer.com/
-        ÆôÓÃ±¾¾µÏñ·şÎñÃüÁî£º
+     ä¸­å›½å…¨é‡é•œåƒï¼šhttp://pkg.phpcomposer.com/
+        å¯ç”¨æœ¬é•œåƒæœåŠ¡å‘½ä»¤ï¼š
             composer config -g repo.packagist composer https://packagist.phpcomposer.com
-            »ò
+            æˆ–
             composer config repo.packagist composer https://packagist.phpcomposer.com
-  3.Composer³£ÓÃÃüÁî£º
-        composer -v  ²é¿´°æ±¾
-        composer selfupdate ¸üĞÂcomposer
+  3.Composerå¸¸ç”¨å‘½ä»¤ï¼š
+        composer -v  æŸ¥çœ‹ç‰ˆæœ¬
+        composer selfupdate æ›´æ–°composer
         
-¶ş¡¢°²×°Laravel¿ò¼Ü
+äºŒã€å®‰è£…Laravelæ¡†æ¶
 ------------------------------------------------------------------
-    ÎÄµµÍøÕ¾£ºhttp://www.golaravel.com/
-    Ñ¡Ôñ5.1°æ±¾£ºhttp://www.golaravel.com/laravel/docs/5.1/
+    æ–‡æ¡£ç½‘ç«™ï¼šhttp://www.golaravel.com/
+    é€‰æ‹©5.1ç‰ˆæœ¬ï¼šhttp://www.golaravel.com/laravel/docs/5.1/
     
-    ¶ÔÔËĞĞ»·¾³µÄÒªÇó£º 
+    å¯¹è¿è¡Œç¯å¢ƒçš„è¦æ±‚ï¼š 
         - PHP >= 5.5.9 
-        - OpenSSL PHP À©Õ¹ 
-        - PDO PHP À©Õ¹ 
-        - Mbstring PHP À©Õ¹ 
-        - Tokenizer PHP À©Õ¹
+        - OpenSSL PHP æ‰©å±• 
+        - PDO PHP æ‰©å±• 
+        - Mbstring PHP æ‰©å±• 
+        - Tokenizer PHP æ‰©å±•
 
-    Í¨¹ı Composer Create-Project ÃüÁî°²×° Laravel£º
-       ÃüÁî£ºcomposer create-project laravel/laravel --prefer-dist
+    é€šè¿‡ Composer Create-Project å‘½ä»¤å®‰è£… Laravelï¼š
+       å‘½ä»¤ï¼šcomposer create-project laravel/laravel --prefer-dist
     
-Èı¡¢±¾µØÓòÃû½âÎöÓëapapcheĞéÄâÖ÷»úÅäÖÃ£¨windowÏÂ£©
+ä¸‰ã€æœ¬åœ°åŸŸåè§£æä¸apapcheè™šæ‹Ÿä¸»æœºé…ç½®ï¼ˆwindowä¸‹ï¼‰
 ------------------------------------------------------------------
-    1. ´ò¿ª£ºC:\Windows\System32\drivers\etcÄ¿Â¼ÖĞµÄhostsÎÄ¼ş£º
-        ÅäÖÃĞÅÏ¢£º127.0.0.1 ×Ô¶¨ÒåÖ÷»úÃû
+    1. æ‰“å¼€ï¼šC:\Windows\System32\drivers\etcç›®å½•ä¸­çš„hostsæ–‡ä»¶ï¼š
+        é…ç½®ä¿¡æ¯ï¼š127.0.0.1 è‡ªå®šä¹‰ä¸»æœºå
         
-    2. ÔÚapacheµÄhttpd-vhosts.confÅäÖÃÎÄ¼şÖĞÅäÖÃ
+    2. åœ¨apacheçš„httpd-vhosts.confé…ç½®æ–‡ä»¶ä¸­é…ç½®
         <VirtualHost *:80>
             ServerAdmin zhangtao@lampbrother.net
-            DocumentRoot "ĞéÄâÖ÷»úÄ¿Â¼Î»ÖÃ"
-            ServerName ĞéÄâÖ÷»úÃû
-            ErrorLog "logs/ĞéÄâÖ÷»úÃû-error.log"
-            CustomLog "logs/ĞéÄâÖ÷»úÃû-access.log" common
+            DocumentRoot "è™šæ‹Ÿä¸»æœºç›®å½•ä½ç½®"
+            ServerName è™šæ‹Ÿä¸»æœºå
+            ErrorLog "logs/è™šæ‹Ÿä¸»æœºå-error.log"
+            CustomLog "logs/è™šæ‹Ÿä¸»æœºå-access.log" common
         </VirtualHost>
     
-ËÄ¡¢Ó¦ÓÃ³ÌĞò½á¹¹½éÉÜ:
+å››ã€åº”ç”¨ç¨‹åºç»“æ„ä»‹ç»:
 -----------------------------------------------------------------------
-    Ïê¼ûÊÖ²áÖĞ¡¶ÏµÍ³¼Ü¹¹¡·µÄÓ¦ÓÃ³ÌĞò½á¹¹
+    è¯¦è§æ‰‹å†Œä¸­ã€Šç³»ç»Ÿæ¶æ„ã€‹çš„åº”ç”¨ç¨‹åºç»“æ„
     
-Îå¡¢HTTP Â·ÓÉ
+äº”ã€HTTP è·¯ç”±
 -----------------------------------------------------------------------
-    1. »ù±¾Â·ÓÉ£º
+    1. åŸºæœ¬è·¯ç”±ï¼š
         Route::get('/', function()
         {
             return 'Hello World';
@@ -82,45 +82,45 @@
         {
             //
         });
-        Route::match(['get', 'post'], '/', function() //¶àÖÖÇëÇó×¢²áÂ·ÓÉ
+        Route::match(['get', 'post'], '/', function() //å¤šç§è¯·æ±‚æ³¨å†Œè·¯ç”±
         {
             return 'Hello World';
         });
-    2. Â·ÓÉ²ÎÊı
+    2. è·¯ç”±å‚æ•°
         Route::get('user/{id}', function($id)
         {
             return 'User '.$id;
         });
 
-Áù. »·¾³ÅäÖÃÓëÊı¾İ¿âÁ¬½Ó
+å…­. ç¯å¢ƒé…ç½®ä¸æ•°æ®åº“è¿æ¥
 ---------------------------------------------------------------------------
-    ĞŞ¸Ä£ºÏîÄ¿ÏÂµÄ.envÎÄ¼ş
+    ä¿®æ”¹ï¼šé¡¹ç›®ä¸‹çš„.envæ–‡ä»¶
     
         
-Áù¡¢laravelDebug°²×°Óëµ÷ÊÔÃüÁî
+å…­ã€laravelDebugå®‰è£…ä¸è°ƒè¯•å‘½ä»¤
 --------------------------------------------------------------------------
-    ÍøÖ·£ºhttps://github.com/barryvdh/laravel-debugbar
+    ç½‘å€ï¼šhttps://github.com/barryvdh/laravel-debugbar
     
-    °²×°ÃüÁî£ºcomposer require barryvdh/laravel-debugbar
-    ½øÈë£ºconfig/app.phpÎÄ¼ş
-        ÅäÖÃ£º
+    å®‰è£…å‘½ä»¤ï¼šcomposer require barryvdh/laravel-debugbar
+    è¿›å…¥ï¼šconfig/app.phpæ–‡ä»¶
+        é…ç½®ï¼š
             Barryvdh\Debugbar\ServiceProvider::class,
             'Debugbar' => Barryvdh\Debugbar\Facade::class,
             
-    Ö´ĞĞÃüÁî£ºphp artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
+    æ‰§è¡Œå‘½ä»¤ï¼šphp artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
     
  
  
-Æß¡¢¿ØÖÆÆ÷µÄ´´½¨
+ä¸ƒã€æ§åˆ¶å™¨çš„åˆ›å»º
 ----------------------------------------------------------------------------
-    ´´½¨Ò»¸öRESTful×ÊÔ´¿ØÖÆÆ÷
-    ÃüÁî£ºphp artisan make:controller StuController
+    åˆ›å»ºä¸€ä¸ªRESTfulèµ„æºæ§åˆ¶å™¨
+    å‘½ä»¤ï¼šphp artisan make:controller StuController
     
-    ÃüÁî£ºphp artisan make:controller StuController --plain (²»ºÃÓÃ)
-        --plain±íÊ¾´´½¨Ò»¸ö¿ÕµÄ¿ØÖÆÆ÷
+    å‘½ä»¤ï¼šphp artisan make:controller StuController --plain (ä¸å¥½ç”¨)
+        --plainè¡¨ç¤ºåˆ›å»ºä¸€ä¸ªç©ºçš„æ§åˆ¶å™¨
     
-    ¿ØÖÆÆ÷ÖĞ´úÂë
-    //ÔÚ¿ØÖÆÆ÷ÖĞ²éÑ¯Êı¾İ,²¢¼ÓÔØÄ£°åÊä³ö
+    æ§åˆ¶å™¨ä¸­ä»£ç 
+    //åœ¨æ§åˆ¶å™¨ä¸­æŸ¥è¯¢æ•°æ®,å¹¶åŠ è½½æ¨¡æ¿è¾“å‡º
     public function index()
     {
         $list = \DB::table('stu')->get();
@@ -128,7 +128,7 @@
         //return view('stu.index', compact('list'));
     }
     
-    ÔÚroutes.phpµÄÂ·ÓÉÎÄ¼şÖĞÅäÖÃ
+    åœ¨routes.phpçš„è·¯ç”±æ–‡ä»¶ä¸­é…ç½®
     Route::get('stu/index', 'StuController@index');
     
     public function index()
@@ -154,7 +154,7 @@
         unset($input['_token']);
        
         $id = \DB::table('stu')->insertGetId($input);
-        return "Ìí¼Ó³É¹¦£¡idºÅ".$id;       
+        return "æ·»åŠ æˆåŠŸï¼idå·".$id;       
     }
     
     public function update()
@@ -174,90 +174,90 @@
     }
     
     
-   °Ë¡¢Laravel ÖĞRequestÇëÇó¶ÔÏóµÄÊ¹ÓÃ
+   å…«ã€Laravel ä¸­Requestè¯·æ±‚å¯¹è±¡çš„ä½¿ç”¨
 -----------------------------------------------------------
-    1. Ê¹ÓÃ·½Ê½£º
-        1.1 Í¨¹ı Facade
-            ÔÚ¿ØÖÆÆ÷ÖĞÊ¹ÓÃ£º use Requestµ¼Èë
-            ÔÚ¿ØÖÆÆ÷µÄ·½·¨ÖĞ»ñÈ¡²ÎÊıĞÅÏ¢£º$name = Request::input('name');
+    1. ä½¿ç”¨æ–¹å¼ï¼š
+        1.1 é€šè¿‡ Facade
+            åœ¨æ§åˆ¶å™¨ä¸­ä½¿ç”¨ï¼š use Requestå¯¼å…¥
+            åœ¨æ§åˆ¶å™¨çš„æ–¹æ³•ä¸­è·å–å‚æ•°ä¿¡æ¯ï¼š$name = Request::input('name');
             
-        1.2 Í¨¹ıÒÀÀµ×¢Èë
-            ÔÚ¿ØÖÆÆ÷ÖĞÊ¹ÓÃ£ºuse Illuminate\Http\Request; µ¼Èë
-            ÔÚ¿ØÖÆÆ÷µÄ·½·¨ÖĞÊ¹ÓÃ²ÎÊı×¢Èërequest¶ÔÏó
+        1.2 é€šè¿‡ä¾èµ–æ³¨å…¥
+            åœ¨æ§åˆ¶å™¨ä¸­ä½¿ç”¨ï¼šuse Illuminate\Http\Request; å¯¼å…¥
+            åœ¨æ§åˆ¶å™¨çš„æ–¹æ³•ä¸­ä½¿ç”¨å‚æ•°æ³¨å…¥requestå¯¹è±¡
                 public function store(Request $request)
                 {
                     $name = $request->input('name');
                 }
                 
-    2. È¡µÃÊäÈëÊı¾İ:
-        2.1 $name = Request::input('name'); »ñÈ¡ÇëÇó²ÎÊınameµÄÖµ
-        2.2 $name = Request::input('name', 'Sally'); »ñÈ¡²ÎÊınameµÄÖµ£¬ÈôÃ»ÓĞÔòÊ¹ÓÃSallyÄ¬ÈÏÖµ
-        2.3 if (Request::has('name')){ ... }  ÅĞ¶ÏÊÇ·ñÓĞ´Ë²ÎÊı¡£
+    2. å–å¾—è¾“å…¥æ•°æ®:
+        2.1 $name = Request::input('name'); è·å–è¯·æ±‚å‚æ•°nameçš„å€¼
+        2.2 $name = Request::input('name', 'Sally'); è·å–å‚æ•°nameçš„å€¼ï¼Œè‹¥æ²¡æœ‰åˆ™ä½¿ç”¨Sallyé»˜è®¤å€¼
+        2.3 if (Request::has('name')){ ... }  åˆ¤æ–­æ˜¯å¦æœ‰æ­¤å‚æ•°ã€‚
         
-        2.4 Request::all();  »ñÈ¡ËùÓĞ²ÎÊıÖµ
+        2.4 Request::all();  è·å–æ‰€æœ‰å‚æ•°å€¼
         
-        2.5 »ñÈ¡²¿·Ö²ÎÊıÖµ
-            $data = $request->only("name","id"); //»ñÈ¡²¿·Ö²ÎÊıÖµ
-            $data = $request->except("name"); //»ñÈ¡Ö¸¶¨Íâ²¿·Ö²ÎÊıÖµ
+        2.5 è·å–éƒ¨åˆ†å‚æ•°å€¼
+            $data = $request->only("name","id"); //è·å–éƒ¨åˆ†å‚æ•°å€¼
+            $data = $request->except("name"); //è·å–æŒ‡å®šå¤–éƒ¨åˆ†å‚æ•°å€¼
             
-        2.6 »ñÈ¡Êı×éÖĞµÄÖµ
+        2.6 è·å–æ•°ç»„ä¸­çš„å€¼
   
-  ¾Å.  LaravelÖĞµÄÏìÓ¦:Response
+  ä¹.  Laravelä¸­çš„å“åº”:Response
 --------------------------------------------------------
-    1. »ù±¾ÏìÓ¦
-        1.1 ´ÓÂ·ÓÉ·µ»Ø×Ö´®
+    1. åŸºæœ¬å“åº”
+        1.1 ä»è·¯ç”±è¿”å›å­—ä¸²
                 Route::get("/hh",function(){
                     return "Hello World!";
                 });
                 
-        1.2 ×Ô¶¨ÒåÏìÓ¦:
-              ÔÚ¿ØÖÆÆ÷ÖĞÊ¹ÓÃresponse: use Illuminate\Http\Response;
-              ¿ØÖÆÆ÷·½·¨ÖĞµÄ´úÂë
+        1.2 è‡ªå®šä¹‰å“åº”:
+              åœ¨æ§åˆ¶å™¨ä¸­ä½¿ç”¨response: use Illuminate\Http\Response;
+              æ§åˆ¶å™¨æ–¹æ³•ä¸­çš„ä»£ç 
                $content="Hello Laravel!";
                $status = 200;
                $value = "text/html";
                return (new Response($content, $status))->header('Content-Type', $value);
         
-        1.3 ÔÚÏìÓ¦ËÍ³öÊÓÍ¼  
+        1.3 åœ¨å“åº”é€å‡ºè§†å›¾  
                return response()->view('hello')->header('Content-Type',"text/html");
                
-        1.4 ¸½¼Ó Cookies µ½ÏìÓ¦
+        1.4 é™„åŠ  Cookies åˆ°å“åº”
                 return response($content)->withCookie(cookie('name', 'value'));
                 
-    2. ÖØ¶¨Ïò
+    2. é‡å®šå‘
         2.1 return redirect('user/login');
         
         
- Ê® ÊÓÍ¼
+ å è§†å›¾
 ---------------------------------------------------------
-    ÊÓÍ¼±»±£´æÔÚ resources/views ÎÄ¼ş¼ĞÄÚ 
-    ÊµÀı´´½İÒ»¸övv.phpÊÓÍ¼ÎÄ¼ş
+    è§†å›¾è¢«ä¿å­˜åœ¨ resources/views æ–‡ä»¶å¤¹å†… 
+    å®ä¾‹åˆ›æ·ä¸€ä¸ªvv.phpè§†å›¾æ–‡ä»¶
     
-    //ÔÚ¿ØÖÆÆ÷µÄ·½·¨ÖĞ¼ÓÔØÊÓÍ¼·½Ê½:
-        1. return view("vv"); //¼ÓÔØÊÓÍ¼
-        2. return view("vv",['name'=>"zhangsan","age"=>20]); //¼ÓÔØÊÓÍ¼,²¢Ğ¯´ø²ÎÊı
-        3. return view("vv")->with("name","lisi")->with("age",30); //Í¨¹ıwithĞ¯´ø²ÎÊıÖµ
+    //åœ¨æ§åˆ¶å™¨çš„æ–¹æ³•ä¸­åŠ è½½è§†å›¾æ–¹å¼:
+        1. return view("vv"); //åŠ è½½è§†å›¾
+        2. return view("vv",['name'=>"zhangsan","age"=>20]); //åŠ è½½è§†å›¾,å¹¶æºå¸¦å‚æ•°
+        3. return view("vv")->with("name","lisi")->with("age",30); //é€šè¿‡withæºå¸¦å‚æ•°å€¼
         
-    ÔÚÊÓÍ¼ÖĞÈçºÎÊä³ö
+    åœ¨è§†å›¾ä¸­å¦‚ä½•è¾“å‡º
         <body>
-            <h2>Laravel¿ò¼ÜÊÓÍ¼²âÊÔ</h2>
-            ĞÕÃû:<?php echo $name; ?>   ÄêÁä:<?php echo $age; ?>
+            <h2>Laravelæ¡†æ¶è§†å›¾æµ‹è¯•</h2>
+            å§“å:<?php echo $name; ?>   å¹´é¾„:<?php echo $age; ?>
         </body>
     
 
- Ê®Ò» Ä£°åÒıÇæ:--Blade
+ åä¸€ æ¨¡æ¿å¼•æ“:--Blade
 ---------------------------------------------------
-    Blade Ä£°åºó×ºÃû¶¼ÒªÃüÃûÎª .blade.php
+    Blade æ¨¡æ¿åç¼€åéƒ½è¦å‘½åä¸º .blade.php
      
      
-Ê®¶ş  Êı¾İÇ¨ÒÆ
+åäºŒ  æ•°æ®è¿ç§»
 --------------------------------------------------
-Ê®Èı   Êı¾İÌî³ä
+åä¸‰   æ•°æ®å¡«å……
 ---------------------------------------------
 
-    Êı¾İËÑË÷¼Ó·ÖÒ³
+    æ•°æ®æœç´¢åŠ åˆ†é¡µ
 -------------------------------------------------
-    // ±£´æËÑË÷µÄÌõ¼ş
+    // ä¿å­˜æœç´¢çš„æ¡ä»¶
     $where = [];
     $db = DB::table('user');
     if($request->has('name')){
@@ -272,84 +272,84 @@
     
     return view('admin.user',['list'=>$list,'where'=>$where]);
 
-    Ä£°åÏÔÊ¾
+    æ¨¡æ¿æ˜¾ç¤º
     {{ $list->appends($where)->links() }}
 
 
-    ÎÄ¼şÉÏ´«
+    æ–‡ä»¶ä¸Šä¼ 
 --------------------------------------------------
     if($request->hasFile('mypic')){
         $file = $request->file('mypic');
         if ($file->isValid()) {
-            //»ñÈ¡ºó×º
+            //è·å–åç¼€
             $ext = $file->getClientOriginalExtension();
             $picname = time().rand(1000,9999).'.'.$ext;
             $file->move('./uploads/',$picname);
             if($file->getError()>0){
-                echo 'ÉÏ´«Ê§°Ü';
+                echo 'ä¸Šä¼ å¤±è´¥';
             }else{
-                echo 'ÉÏ´«³É¹¦';
+                echo 'ä¸Šä¼ æˆåŠŸ';
             }
         }
     }
-    // $name = $file->getClientOriginalName();          //»ñÈ¡ÉÏ´«ÎÄ¼şµÄÔ´ÎÄ¼şÃû
-    // $ext = $file->getClientOriginalExtension();      //»ñÈ¡Ô´ÎÄ¼şµÄºó×º
-    // $error = $file->getError();                      //»ñÈ¡´íÎóºÅ
-    // $size = $file->getClientSize();                  //»ñÈ¡ÎÄ¼şµÄ´óĞ¡
-    // $type = $file->getClientMimeType();              //»ñÈ¡ÎÄ¼şµÄÀàĞÍ
+    // $name = $file->getClientOriginalName();          //è·å–ä¸Šä¼ æ–‡ä»¶çš„æºæ–‡ä»¶å
+    // $ext = $file->getClientOriginalExtension();      //è·å–æºæ–‡ä»¶çš„åç¼€
+    // $error = $file->getError();                      //è·å–é”™è¯¯å·
+    // $size = $file->getClientSize();                  //è·å–æ–‡ä»¶çš„å¤§å°
+    // $type = $file->getClientMimeType();              //è·å–æ–‡ä»¶çš„ç±»å‹
 
 
 
-    ×Ô¶¨ÒåÍ¼Æ¬µÈ±ÈËõ·ÅÀàµÄÊ¹ÓÃ
+    è‡ªå®šä¹‰å›¾ç‰‡ç­‰æ¯”ç¼©æ”¾ç±»çš„ä½¿ç”¨
 ---------------------------------------------------
-    1. ½«ÊÂÏÈ¶¨ÒåºÃµÄImage.phpÀà·ÅÖÃµ½App/Org/Ä¿Â¼ÏÂ(ÆäÖĞOrg×Ô¶¨ÒåÄ¿Â¼).
-       ÔÚÀàÖĞ¶¨ÒåÃüÃû¿Õ¼ä:namespace App\Org;
+    1. å°†äº‹å…ˆå®šä¹‰å¥½çš„Image.phpç±»æ”¾ç½®åˆ°App/Org/ç›®å½•ä¸‹(å…¶ä¸­Orgè‡ªå®šä¹‰ç›®å½•).
+       åœ¨ç±»ä¸­å®šä¹‰å‘½åç©ºé—´:namespace App\Org;
        
-    2. ÔÚÊ¹ÓÃµÄ¿ØÖÆÀàÖĞÒıÈëµ±Ç°Àà: use App\Org\Image;
-        ¾ßÌåÊ¹ÓÃ:
-            //Ö´ĞĞËõ·Å
+    2. åœ¨ä½¿ç”¨çš„æ§åˆ¶ç±»ä¸­å¼•å…¥å½“å‰ç±»: use App\Org\Image;
+        å…·ä½“ä½¿ç”¨:
+            //æ‰§è¡Œç¼©æ”¾
             $img = new Image();
             $img->open("./uploads/".$filename)->thumb(100,100)->save("./uploads/s_".$filename);
  
 
 
-    Ê¹ÓÃµÚÈı·½Í¼Æ¬´¦Àí²å¼ş:intervention/image
+    ä½¿ç”¨ç¬¬ä¸‰æ–¹å›¾ç‰‡å¤„ç†æ’ä»¶:intervention/image
 -------------------------------------------------------
-    1. °²×°:Ê¹ÓÃComposerÃüÁî,ĞèÒªÔÚÄãµÄLaravel¿ò¼ÜÄ¿Â¼ÏÂÖ´ĞĞÈçÏÂÃüÁîÖ´ĞĞ°²×°
+    1. å®‰è£…:ä½¿ç”¨Composerå‘½ä»¤,éœ€è¦åœ¨ä½ çš„Laravelæ¡†æ¶ç›®å½•ä¸‹æ‰§è¡Œå¦‚ä¸‹å‘½ä»¤æ‰§è¡Œå®‰è£…
         
         $ php composer.phar require intervention/image 
-        »ò composer require intervention/image
+        æˆ– composer require intervention/image
         
-    2. Ìí¼ÓÅäÖÃ
-        ĞŞ¸Ä/config/app.phpÅäÖÃÎÄ¼ş
-            ÔÚ$providersÊôĞÔÖĞÌí¼Ó: Intervention\Image\ImageServiceProvider::class,
-            ÔÚ$aliasesÊôĞÔÖĞÌí¼Ó:'Image' => Intervention\Image\Facades\Image::class,
+    2. æ·»åŠ é…ç½®
+        ä¿®æ”¹/config/app.phpé…ç½®æ–‡ä»¶
+            åœ¨$providerså±æ€§ä¸­æ·»åŠ : Intervention\Image\ImageServiceProvider::class,
+            åœ¨$aliaseså±æ€§ä¸­æ·»åŠ :'Image' => Intervention\Image\Facades\Image::class,
             
-    3. Ö´ĞĞÃüÁîÈÃµ±Ç°LaravelÊ¹ÓÃµ±Ç°²å¼ş(Ô­Ê¹ÓÃµÄÊÇGD¿â)
+    3. æ‰§è¡Œå‘½ä»¤è®©å½“å‰Laravelä½¿ç”¨å½“å‰æ’ä»¶(åŸä½¿ç”¨çš„æ˜¯GDåº“)
         $ php artisan vendor:publish --provider="Intervention\Image\ImageServiceProviderLaravel5"
         
         
-    4. ²âÊÔ: ÔÚµ±Ç°ÏîÄ¿¿ØÖÆÆ÷ÖĞ¾Í¿ÉÒÔÊ¹ÓÃÏÂÃæ´úÂë²âÊÔ
+    4. æµ‹è¯•: åœ¨å½“å‰é¡¹ç›®æ§åˆ¶å™¨ä¸­å°±å¯ä»¥ä½¿ç”¨ä¸‹é¢ä»£ç æµ‹è¯•
         use Intervention\Image\ImageManagerStatic as Image;
     
         $img = Image::make("./uploads/".$filename)->resize(100,100);
-        $img->save("./uploads/s_".$filename); //Áí´æÎª
-        return $img->response("jpg"); //Êä³ö
+        $img->save("./uploads/s_".$filename); //å¦å­˜ä¸º
+        return $img->response("jpg"); //è¾“å‡º
         
-        //Ö´ĞĞµÈ±ÈËõ·Å
+        //æ‰§è¡Œç­‰æ¯”ç¼©æ”¾
         $img->resize(null, 400, function ($constraint) {
                                     $constraint->aspectRatio();
                                     $constraint->upsize();
                                 });
         
 
-    ±íµ¥ÑéÖ¤
+    è¡¨å•éªŒè¯
 ------------------------------------------------------------------------------------
-    Ò»¡¢±íµ¥ÑéÖ¤£º
-    1. ¿ØÖÆÆ÷ÑéÖ¤£º
+    ä¸€ã€è¡¨å•éªŒè¯ï¼š
+    1. æ§åˆ¶å™¨éªŒè¯ï¼š
       public function store(Request $request)
       {   
-        //ÑéÖ¤
+        //éªŒè¯
         $this->validate($request, [
             'name' => 'required|max:255',
             'age' => 'required|numeric|max:100|min:10',
@@ -357,7 +357,7 @@
         ...
       }
       
-    2. ÔÚ±íµ¥Ò³ÉÏÏÔÊ¾£º
+    2. åœ¨è¡¨å•é¡µä¸Šæ˜¾ç¤ºï¼š
         @if (count($errors) > 0)
             <div class="alert alert-danger">
                 <ul style="color:red;">
@@ -369,46 +369,46 @@
         @endif
         
    
-    ÔÚLaravel¿ò¼ÜÖĞÊ¹ÓÃÑéÖ¤ÂëÀ©Õ¹£¨gregwar/captcha£©
-£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­£­
+    åœ¨Laravelæ¡†æ¶ä¸­ä½¿ç”¨éªŒè¯ç æ‰©å±•ï¼ˆgregwar/captchaï¼‰
+ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼
 
-Ê×ÏÈÄØÔÚlaravel5ÖĞÄ¬ÈÏÊÇÃ»ÓĞÌá¹©ÑéÖ¤ÂëµÄ£¬ÕâÀïÎÒÃÇĞèÒªÊ¹ÓÃµÚÈı·½Ìá¹©µÄ¿â:gregwar/captcha
+é¦–å…ˆå‘¢åœ¨laravel5ä¸­é»˜è®¤æ˜¯æ²¡æœ‰æä¾›éªŒè¯ç çš„ï¼Œè¿™é‡Œæˆ‘ä»¬éœ€è¦ä½¿ç”¨ç¬¬ä¸‰æ–¹æä¾›çš„åº“:gregwar/captcha
 
-Í¨¹ıcomposer°²×°£º
+é€šè¿‡composerå®‰è£…ï¼š
 
-ÔÚcomposer.jsonµÄrequireÖĞ¼ÓÈë"gregwar/captcha": "dev-master"£¬¾ßÌå´úÂëÈçÏÂ
+åœ¨composer.jsonçš„requireä¸­åŠ å…¥"gregwar/captcha": "dev-master"ï¼Œå…·ä½“ä»£ç å¦‚ä¸‹
 
 "require": {
         "laravel/framework": "5.0.*",
         "gregwar/captcha": "dev-master"
     },
 
-È»ºóÔËĞĞ: composer updateÃüÁî
+ç„¶åè¿è¡Œ: composer updateå‘½ä»¤
 
-Ê¹ÓÃgregwar/captcha¿â
+ä½¿ç”¨gregwar/captchaåº“
 
-Ê¹ÓÃ¾Í·Ç³£¼òµ¥ÁË£¬Ö±½ÓÉÏ´úÂë
-¼ÇµÃÔÚ¶¥²¿use Gregwar\Captcha\CaptchaBuilder;
+ä½¿ç”¨å°±éå¸¸ç®€å•äº†ï¼Œç›´æ¥ä¸Šä»£ç 
+è®°å¾—åœ¨é¡¶éƒ¨use Gregwar\Captcha\CaptchaBuilder;
 
 function captch(){
     $builder = new CaptchaBuilder;
     $builder->build(150,32);
-    //Session::set('phrase',$builder->getPhrase()); //´æ´¢ÑéÖ¤Âë
+    //Session::set('phrase',$builder->getPhrase()); //å­˜å‚¨éªŒè¯ç 
     return response($builder->output())->header('Content-type','image/jpeg');
 }
 
-ÔÚÊÓÍ¼ÖĞµ÷ÓÃ
-<img src="{{ url('Äã¶¨ÒåµÄcaptchº¯ÊıµÄÂ·ÓÉ') }}" >
+åœ¨è§†å›¾ä¸­è°ƒç”¨
+<img src="{{ url('ä½ å®šä¹‰çš„captchå‡½æ•°çš„è·¯ç”±') }}" >
 
-ÑéÖ¤¾Í¸ü¼òµ¥ÁË
+éªŒè¯å°±æ›´ç®€å•äº†
 function index(){
     $yanzhengma = Session::get('phrase');
     if($_POST['yanzhengma'] == $yanzhengma){
-        echo 'success';//ÑéÖ¤³É¹¦
+        echo 'success';//éªŒè¯æˆåŠŸ
     }
 
 }
 
-¼ÇµÃ±ğÍüÁËÔÚ¶¥²¿use Session 
+è®°å¾—åˆ«å¿˜äº†åœ¨é¡¶éƒ¨use Session 
 
-»¹ÓĞ ÑéÖ¤ÂëĞèÒªÄãµÄ»·¾³°²×°gd¿â£¬Òª²»È»²»»áÕı³£ÏÔÊ¾
+è¿˜æœ‰ éªŒè¯ç éœ€è¦ä½ çš„ç¯å¢ƒå®‰è£…gdåº“ï¼Œè¦ä¸ç„¶ä¸ä¼šæ­£å¸¸æ˜¾ç¤º
